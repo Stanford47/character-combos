@@ -9,5 +9,5 @@
 simply run:
 
 ```bash
-mein@mein-laptop:~/utils$ g++ combos.cpp -o out
+mein@mein-laptop:~/utils$ g++ ps.cpp -o out
 ```
