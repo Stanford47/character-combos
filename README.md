@@ -1,2 +1,13 @@
-# character-combos
-Writes all possible character combinations of a string to a file
+# How to build
+
+### Prerequisites
+
+* `gnu g++`
+
+### Building
+
+simply run:
+
+```bash
+mein@mein-laptop:~/utils$ g++ combos.cpp -o out
+```
