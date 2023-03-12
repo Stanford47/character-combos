@@ -7,10 +7,10 @@ int main()
 	std::string string;
 	std::string file_name;
 	std::cout << "Please enter the string of characters to find" << std::endl;
-	std::cin >> string;
+	std::getline(std::cin, string);
 
 	std::cout << "Enter the name of the file to output the combinations to" << std::endl;
-	std::cin >> file_name;
+	std::getline(std::cin, file_name);
 
 	writeCombinations(string, file_name);
 }
