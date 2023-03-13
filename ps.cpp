@@ -13,6 +13,8 @@ int main()
 	std::getline(std::cin, file_name);
 
 	writeCombinations(string, file_name);
+	
+	std::cin.get();
 }
 
 void writeCombinations(std::string s, std::string file_name)
